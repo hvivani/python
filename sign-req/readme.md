@@ -1,4 +1,4 @@
-Signing Requests with Signature Version 4
+# Signing Requests with Signature Version 4
 
 This script is based on this documentation:
 http://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html
