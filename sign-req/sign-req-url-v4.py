@@ -54,8 +54,6 @@ datestamp = t.strftime('%Y%m%d') # Date w/o time, used in credential scope
 # Step 2: Create canonical URI--the part of the URI from domain to query
 # string (use '/' if no path)
 canonical_uri ='/'
-#canonical_uri = '/_plugin/kibana/bower_components/requirejs/require.js?_b=6103'
-#canonical_uri = '/'
 
 # Step 3: Create the canonical headers and signed headers. Header names
 # and value must be trimmed and lowercase, and sorted in ASCII order.
