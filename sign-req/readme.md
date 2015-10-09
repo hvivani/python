@@ -18,7 +18,7 @@ To sign a URL with Signature Version 4:
 
 Here is an example generating a signed request for Amazon Elasticsearch Service endpoint:
 ```
-[ec2-user@ip-172-31-12-131 python]$ python sign-req-url-v4.py search-hvivani-test-674xdhdclxwxwxwxwxw5yokdi.eu-west-1.es.amazonaws.com eu-west-1
+[ec2-usr@ip-172-1-2-13 python]$ python sign-req-url-v4.py search-hvivani-test-674xdhdclxwxwxwxwxw5yokdi.eu-west-1.es.amazonaws.com eu-west-1
 
 BEGIN REQUEST++++++++++++++++++++++++++++++++++++
 Request URL = https://search-hvivani-test-674xdhdcltycwxwxwxwxwdi.eu-west-1.es.amazonaws.com?Action=CreateUser&UserName=NewUser&Version=2010-05-08&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYOUR-KEYO3%2F20151009%2Feu-west-1%2Fes%2Faws4_request&X-Amz-Date=20151009T042326Z&X-Amz-Expires=30&X-Amz-SignedHeaders=host&X-Amz-Signature=5bb87c8e3dawxwxwxwxwxwxe74679c091717d0f5096
